@@ -30,6 +30,8 @@ body {
 .header {
   display: flex;
   justify-content: center;
+  position: absolute;
+  width: 100%;
 }
 .header .container {
   display: flex;
@@ -76,9 +78,15 @@ body {
 /* ----------HERO---------------- */
 
 .hero {
-  padding: 205px 0;
+  padding-top: 255px;
+  padding-bottom: 205px;
+  padding-right: 150px;
   display: flex;
   justify-content: center;
+  background-image: url('/img/modelbil.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+   background-position: 30% 30%
 }
 
 .hero .container {
@@ -87,10 +95,7 @@ body {
   width: 1320px;
   padding-left: 60px;
   padding-right: 60px;
-}
-
-.hero-content {
-  margin-left: 150px;
+  justify-content: flex-end;
 }
 
 .main-title {
